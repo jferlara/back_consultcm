@@ -46,69 +46,69 @@ export const createHistoria = async (req, res) => {
         const {
           documento,
           nombre,
-          abseso,
+          abseso, // cambio
           aislamiento,
           anestesia,
-          bolsas,
-          calculos,
+          bolsas, // cambio
+          calculos, // cambio
           cansancio,
           cariados,
-          carrillos,
-          cirugia,
+          carrillos, // cambio
+          cirugia, // cambio
           contacto_covid,
           covid,
-          diagnostico_dental,
-          diagnostico_periodontal,
-          diagnostico_pulpar,
+          diagnostico_dental, // cambio
+          diagnostico_periodontal, // cambio
+          diagnostico_pulpar, // cambio
           diarrea,
-          endodoncia,
+          endodoncia, // cambio
           evolucion,
-          facetas,
+          facetas, // cambio
           fecha,
           fiebre,
-          frenillos,
-          gingivitis,
+          frenillos, // cambio
+          gingivitis, // cambio
           gusto,
-          habitos_higiene,
-          habitos_parafuncionales,
-          implantes,
-          labios,
-          lengua,
-          materia_alba,
-          mialgia,
-          mordida_abierta,
+          habitos_higiene, // cambio
+          habitos_parafuncionales, // cambio
+          implantes, // cambio
+          labios, // cambio
+          lengua, // cambio
+          materia_alba, // cambio
+          mialgia, // cambio
+          mordida_abierta, // cambio
           mordida_cerrada,
-          mordida_cruzada,
+          mordida_cruzada, // cambio
           motivo,
-          movilidad,
+          movilidad, // cambio
           observaciones,
           obturados,
           odontograma,
-          odontopediatria,
-          ortodoncia,
+          odontopediatria, // cambio
+          ortodoncia, // cambio
           paciente_id,
-          paladar,
-          patologia,
+          paladar, // cambio
+          patologia, // cambio
           perdidos,
-          periodoncia,
-          periodontitis,
-          piso,
-          Placa_bacteriana,
-          plan_tratamiento,
+          periodoncia, // cambio
+          periodontitis, // cambio
+          piso, // cambio
+          Placa_bacteriana, // cambio
+          plan_tratamiento, // cambio
           procedimiento,
-          Prognatismo,
-          pyp,
-          reabsorcion,
-          rehabilitacion,
-          remisiones,
+          Prognatismo, // cambio
+          pyp, // cambio
+          reabsorcion,  // cambio
+          rehabilitacion, // cambio
+          remisiones, // cambio
           resistencia_anestesia_local,
           resistencia_otros,
-          retrognatismo,
+          retrognatismo, // cambio
           sanos,
           sesion,
           temperatura,
           tos,
-          ultima_visita_odontologo,
+          ultima_visita_odontologo, // cambio
           fecha_registro,
         } = req.body;
         const [result] = await pool.query(
